@@ -1,0 +1,21 @@
+{
+  "name": "bean-clicker",
+  "version": "0.0.1",
+  "description": "nodejs appplication that uses a Bean as slides-clicker!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node index.js"
+  },
+  "keywords": [
+    "bean",
+    "hid",
+    "keyboard"
+  ],
+  "author": "Kenneth Lim",
+  "license": "MIT",
+  "dependencies": {
+    "robotjs": "^0.2.4",
+    "serialport": "^1.7.4"
+  }
+}
